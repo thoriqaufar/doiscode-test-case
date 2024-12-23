@@ -60,6 +60,12 @@ Install dependencies
   composer install
 ```
 
+Copy .env.example
+
+```bash
+  cp .env.example .env
+```
+
 Migrate the database and its seeder
 
 ```bash
