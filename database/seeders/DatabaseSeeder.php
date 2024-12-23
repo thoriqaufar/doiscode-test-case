@@ -28,5 +28,11 @@ class DatabaseSeeder extends Seeder
                 'position_id' => $faker->randomElement([$manager->id, $staff->id])
             ]);
         }
+
+        User::create([
+            'name' => 'User Example',
+            'email' => 'user@example.com',
+            'password' => 'Password1234'
+        ]);
     }
 }
